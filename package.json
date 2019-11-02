@@ -1,0 +1,33 @@
+{
+  "name": "@dwebjs/encoding",
+  "description": "Library for encoding and decoding dWeb links.",
+  "version": "1.0.0",
+  "contributors": [
+    "Jared Rice Sr. <jared@dpeeps.com>",
+    "Peeps Labs <labs@dpeeps.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/dwebjs/encoding/issues"
+  },
+  "dependencies": {
+    "safe-buffer": "^5.0.1"
+  },
+  "devDependencies": {
+    "standard": "^9.0.0",
+    "tape": "^4.5.1"
+  },
+  "homepage": "https://dwebs.io",
+  "keywords": [
+    "dweb",
+    "distributed-web",
+    "dweb-encoding"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwebjs/encoding.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  }
+}
